@@ -84,7 +84,7 @@ if(isset($_POST['sub'])){
 
       <form enctype="multipart/form-data" method="post">
         <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="Email" name="Email"> 
+          <input type="text" class="form-control" placeholder="Nome de Usuário" name="Email"> 
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-envelope"></span>
@@ -93,7 +93,7 @@ if(isset($_POST['sub'])){
         </div>
         <div class="input-group mb-3">
             <!-- compo -->
-          <input type="password" name="Password" class="form-control" placeholder="Password">
+          <input type="password" name="Password" class="form-control" placeholder="Senha">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-lock"></span>
